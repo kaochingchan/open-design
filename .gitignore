@@ -8,6 +8,10 @@ out/
 *.log
 .vite
 
+# Local Node.js runtime and package manager binaries — auto-downloaded on setup.
+.local-node/
+.corepack/
+
 # Local runtime data — auto-created by the daemon on first start.
 # Holds app.sqlite (project metadata), projects/<id>/ (per-project artifacts,
 # the agent's CWD), and artifacts/ (one-off renders). Never commit.
